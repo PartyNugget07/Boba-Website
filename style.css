@@ -1,9 +1,25 @@
 img {
     width: 200px;
+    height: auto;
 }
 body {
     text-align: center;
     font-family: 'Arial';
-    background: azure;
-    color: rgb(15, 235, 15);
+    background: rgb(182, 240, 240);
+    color: rgb(45, 141, 231);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorful-text {
+    background: linear-gradient(to left, purple, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.colorful-text2 {
+    background: linear-gradient(to left, gray, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
